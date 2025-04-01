@@ -14,12 +14,12 @@ export const fetchWeather = createAsyncThunk(
 
             if(!response.ok) {
                 throw new Error('city not found');
-                
+
             }
 
             return await response.json();
         } catch (error) {
-            return rejectValue(error);
+            return rejectValue(error)
         }
         
     }

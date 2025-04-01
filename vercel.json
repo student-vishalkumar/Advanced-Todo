@@ -1,11 +1,6 @@
 { 
     "rewrites": 
          [{ "source": "/(.*)", "destination": "/" }],
-    "redirects": [
-    {
-      "source": "https://your-project.vercel.app",
-      "destination": "http://your-project.vercel.app",
-      "permanent": true
-    }
-  ]
+    
  }
+
